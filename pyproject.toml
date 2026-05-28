@@ -1,0 +1,13 @@
+[project]
+name = "secret-agent-editor"
+version = "0.6.0"
+description = "Python reverse-engineering level viewer/editor for Apogee Secret Agent game_data."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10"]
+
+[project.scripts]
+secret-agent-editor = "secret_agent_editor.cli:main"
+
+[tool.setuptools]
+packages = ["secret_agent_editor"]
