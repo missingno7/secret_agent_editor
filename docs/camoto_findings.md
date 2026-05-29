@@ -28,6 +28,9 @@ The Camoto Studio XML does not contain the complete map-code to tile mapping.
 That mapping lives in the Camoto/libgamemaps code and is represented locally in
 `secret_agent_editor/mapping.py`.
 
+OpenCrystalCaves and the unpacked Secret Agent disassembly are tracked as
+additional research inputs in `engine_research_leads.md`.
+
 Note: the XML lists the offset for level 14 as `28244`, while the fixed-block
 calculation `2016 * 14` gives `28224`. This project therefore parses level
 archives as a sequence of fixed 2016-byte blocks instead of copying every XML

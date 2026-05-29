@@ -91,7 +91,7 @@ def title_for_code(code: int, refs: list[DrawRef]) -> str:
         return f"Composite code 0x{code:02X} ({len(refs)} refs, bank {banks})"
     if refs:
         _rx, _ry, b, t = refs[0]
-        return f"Code 0x{code:02X} → bank {b}, tile {t}"
+        return f"Code 0x{code:02X} -> bank {b}, tile {t}"
     return f"Code 0x{code:02X}"
 
 

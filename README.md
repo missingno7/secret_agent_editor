@@ -117,7 +117,8 @@ secret_agent_editor/
   cli.py         # CLI entry point
 ```
 
-Additional reverse-engineering notes live in `docs/`.
+Additional reverse-engineering notes live in `docs/`, including current engine
+research leads from OpenCrystalCaves and the Secret Agent disassembly.
 
 ## Data And Legal Notes
 

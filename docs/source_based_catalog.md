@@ -28,4 +28,5 @@ Picker categories:
 - `Used in current level`: data derived from the currently open level.
 
 This avoids implying gameplay semantics, such as enemy, item, or door behavior,
-until those details are confirmed by deeper executable analysis.
+until those details are confirmed by deeper executable analysis. See
+`engine_research_leads.md` for the current plan to add verified semantics.
